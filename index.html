@@ -35,31 +35,33 @@
             <main>
                 <section id=about>
                     <h1 align="center">About</h1>
-                    <p>California is the most populous state in the United States and the third most extensive by area. Located on the western (Pacific Ocean) coast of the U.S., California is bordered by Oregon to the north, Nevada, to the east and northeast, Arizona to the southeast and it shares an international border with the Mexican state of Baja California to the south. The state capital is Sacramento. </p>
+                    <p class="type">California is the most populous state in the United States and the third most extensive by area. Located on the western (Pacific Ocean) coast of the U.S., California is bordered by Oregon to the north, Nevada, to the east and northeast, Arizona to the southeast and it shares an international border with the Mexican state of Baja California to the south. The state capital is Sacramento. </p>
                     <br>
                 </section>
                 <hr>
+                <section>
                 <img class="img" src="img/new.png" alt="new">
                 <section id=gallery>
                     <h2 align="center">Gallery</h2>
                 </section>
                 <hr>
-                <div class="polaroid">
-                    <img id="img1" src="img/palm.jpg" alt="alm" style="width:100%">
-                    <div class="container">
-                        <p>Palm Springs</p>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <img id="img1" src="img/santa.jpg" alt="Santa" style="width:100%">
-                    <div class="container">
-                        <p>Santa Barbara</p>
-                    </div>
-                </div>
+                
+                <article>
+                    <img src="img/palm.jpg" alt="palm" class="palm">
+                    <p class="par">Palm Springs</p>
+                    <img src="img/santa.jpg" alt="santa" class="santa">
+                    <p class="par">Santa Barbara</p>
+                    
+                    
+                </article>
+                
+                
+                
+               
                 <hr>
                 <section id=video>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/qsjeL3-2NBY?ecver=1" frameborder="0" allowfullscreen></iframe>
-                    <p align="center">Do you still have some doubts?</p>
+                    <p class="type" align="center">Do you still have some doubts?</p>
                 </section>
                 <hr>
                 <form action="https://formspree.io/andrewusa921@gmail.com" name="myForm" method="POST">
@@ -79,12 +81,12 @@
                         <fieldset>
                             <label for="c-name">
                                 Your Name
-                <input type="text" name="your-name" id="c-name" required>
-                            </label>
+                            <input type="text" name="your-name" id="c-name" required>
+                                </label>
                             <br>
                             <label for="c-mail">
                                 Your Email
-                <input id="c-mail" type="email" name="your-email" required>
+                            <input id="c-mail" type="email" name="your-email" required>
                             </label>
                             <br>
                         </fieldset>
@@ -92,27 +94,13 @@
                         <fieldset>
                             <label>
                                 Write text here
-        <textarea name="message" rows="10" cols="30" required></textarea>
+                        <textarea name="message" rows="10" cols="30" required></textarea>
                             </label>
                         </fieldset>
                         <input type="submit">
                         <input type="reset">
                 </form>
-                <!--  <section id="about">
-            <figure>
-                <img style="width: 10px" src="img/palm.jpg" alt="1" align="center">
-                <figcaption> Palm Springs</figcaption>
-                </div>
-                <div class="center">
-                <img style="width: 100px" src="img/catalina.jpg" alt="1">
-                <figcaption> Catalina Island</figcaption>
-                </div>
-                <div class="right">
-                 <img style="width: 100px" src="img/santa.jpg" alt="1">
-                <figcaption> Santa Barbara</figcaption>
-                </div>
-            </figure>
-        </section>-->
+                
             </main>
     </body>
 </html>
